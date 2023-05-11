@@ -4,8 +4,8 @@ import numpy as np
 import os
 
 facec = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-json_path = os.getcwd() + "\model5.json"
-weight_path = os.getcwd() + "\model5_weights.h5"
+json_path = os.getcwd() + "/model5.json"
+weight_path = os.getcwd() + "/model5_weights.h5"
 model = FacialExpressionModel(json_path, weight_path)
 font = cv2.FONT_HERSHEY_SIMPLEX
 
